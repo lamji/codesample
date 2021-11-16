@@ -211,3 +211,25 @@ var newHTML = `
 `
 
 $('Body').append(newHTML);
+
+
+// CSS
+.container.my-4 {
+    display:none;
+}
+
+.web-footer {
+    display:none;
+}
+
+.red-text {
+    color: red;
+}
+
+hr.solid {
+    border-top: 3px solid #FDB31C;
+}
+
+hr.solid-unselected {
+    border-top: 3px solid grey;
+}
